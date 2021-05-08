@@ -1,0 +1,24 @@
+ First printer is ROB 312, speed: 5, docs in queue: 0
+Second printer is CS Lab, speed: 3, docs in queue: 0
+	Doc of size 22 added to ROB 312, speed: 5, docs in queue: 1
+	Doc of size 2 added to CS Lab, speed: 3, docs in queue: 1
+	Doc of size 3 added to ROB 312, speed: 5, docs in queue: 2
+	Doc of size 5 added to ROB 312, speed: 5, docs in queue: 3
+	Doc of size 7 added to CS Lab, speed: 3, docs in queue: 2
+	Doc of size 1 added to CS Lab, speed: 3, docs in queue: 3
+step 0
+	Print task completed on CS Lab for: Doc of size 2
+step 1
+step 2
+step 3
+	Print task completed on CS Lab for: Doc of size 7
+step 4
+	Print task completed on ROB 312 for: Doc of size 22
+	Print task completed on CS Lab for: Doc of size 1
+step 5
+	Print task completed on ROB 312 for: Doc of size 3
+step 6
+	Print task completed on ROB 312 for: Doc of size 5
+step 7
+step 8
+step 9

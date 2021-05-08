@@ -1,0 +1,39 @@
+//Kyle Evangelisto
+
+/**
+     * Final Exam
+     * The height of an empty BinaryTree is 0, and the height of a non-empty 
+     * BinaryTree is the height of its taller child plus one.
+     * @return the height of the tree
+     */
+    @Override
+    public int height() {
+        if(this.isEmpty()) {
+            return 0;
+        }
+        if(right.isEmpty()) {
+            return 1 + left.height();
+        }
+        if(left.isEmpty()) {
+            return 1 + right.height();
+        }
+        if(left.height() > right.height()) {
+            return 1 + left.height();
+        }
+        return 1 + right.height();
+    }
+
+    /**
+     * Final Exam
+     * An empty BinaryTree is balanced.
+     * A non-empty BinaryTree is balanced if the difference in the heights of its two children is less than 5,
+     * and both children are balanced.
+     * @return if balanced or not
+     */
+    @Override
+    public boolean isBalanced() {
+        if (this.isEmpty()) {
+            return true;
+        }
+        return (this.getLeft().height() - this.getRight().height()) < 5;
+    }

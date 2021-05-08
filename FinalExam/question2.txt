@@ -1,0 +1,13 @@
+//Kyle Evangelisto    
+/** Remove the last value obtained by a call to
+     * next(), and the following value.
+     * Pre: There are two such values remaining in the List
+     * Pre:  The next() method has been called at least once since the last call to remove() or remove2()
+     */
+    public void remove2() {
+        this.remove(); //remove first element, we know we have one because of pre
+        if (this.hasNext()){ //if we have another element after
+            this.next(); //go to the next element
+            this.remove(); //remove the second element
+        }
+    }

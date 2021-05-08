@@ -1,0 +1,19 @@
+/**
+ *
+ *@author Kyle Evangelisto
+ */
+
+/** @return true iff there are at least two more items remaining 
+  * to be visited for this Iterator 
+  */
+boolean has2more();
+
+/* ArrayIterator Class */
+public boolean has2More() {
+   return ndx < list.size() -2;
+}
+
+/* RefIterator Class */
+    public boolean has2More(){
+        return hasNext() && cursor.next.next != list.tail;
+}
