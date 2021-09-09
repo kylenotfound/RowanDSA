@@ -1,6 +1,6 @@
 # Rowan DSA
 
-Rowan DSA (Data Structures and Algorithms) is a course taught at Rowan University to introduce and teach different data structures and algorithms such as:
+Rowan DSA (Data Structures and Algorithms) is a course taught in Java at Rowan University to introduce and teach different data structures and algorithms such as:
 * Lists / Linked Lists
 * Queues / Priority Queues
 * Stacks
